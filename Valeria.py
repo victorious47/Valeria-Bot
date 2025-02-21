@@ -32,5 +32,5 @@ async def base64_decode(interaction: discord.Interaction, text: str):
         await interaction.response.send_message(f'Error: {str(e)}', ephemeral=True)
 
 # Run the bot
-TOKEN = "MTM0MTY2MjU5NzYyNzM3OTcxMg.GaHkLC.qBnz4xmzbzmPRPcY5w55nsHlGDyv4RvTetwzmU"
+TOKEN = "MTM0MTY2MjU5NzYyNzM3OTcxMg.GUNlZo.Bvkvvt92Ukx_J1lXBguyM8wPho9zg44ZWaB4UE"
 bot.run(TOKEN)
